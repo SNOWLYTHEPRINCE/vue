@@ -251,7 +251,7 @@ Vue.component('product-tabs', {
     data() {
         return {
             tabs: ['Reviews', 'Make a Review', 'Shipping', 'Details'],
-            selectedTab: 'Reviews'  // устанавливается с помощью @click
+            selectedTab: 'Reviews'
         }
     }
 })
